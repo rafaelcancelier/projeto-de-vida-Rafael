@@ -10,3 +10,9 @@ for (let i=0; i<botoes.length; i++ ){
         botoes[i].classList.add("ativo");
     }
 }
+
+const contadores = document.querySelectorAll(".contador");
+const tempo0bjstivo1 = new Date("");
+let tempoAtual = new Date();
+
+contadores[0].textContent = tempo0bjstivo1 - tempoAtual;
